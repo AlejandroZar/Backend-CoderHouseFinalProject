@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "title": "Planta de Interior - Ficus Elastica",
+      "description": "Una hermosa planta de interior con hojas verdes brillantes y un tronco fuerte. Ideal para decorar tu hogar.",
+      "price": 29.99,
+      "thumbnail": "ficus.jpg",
+      "code": "PL-001",
+      "stock": 20
+    },
+    {
+      "id": 2,
+      "title": "Suculenta - Echeveria",
+      "description": "Una suculenta de aspecto hermoso con hojas carnosas en forma de roseta. Fácil de cuidar y perfecta para decorar tu escritorio.",
+      "price": 12.99,
+      "thumbnail": "echeveria.jpg",
+      "code": "PL-002",
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "title": "Cactus - Opuntia",
+      "description": "Un cactus de la variedad Opuntia con grandes almohadillas planas y espinas. Requiere muy pocos cuidados y es resistente a la sequía.",
+      "price": 14.99,
+      "thumbnail": "opuntia.jpg",
+      "code": "PL-003",
+      "stock": 35
+    },
+    {
+      "id": 4,
+      "title": "Orquídea - Phalaenopsis",
+      "description": "Una elegante orquídea Phalaenopsis con flores blancas y un largo período de floración. Ideal como regalo o decoración.",
+      "price": 34.99,
+      "thumbnail": "orchid.jpg",
+      "code": "PL-004",
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "title": "Helecho - Nephrolepis",
+      "description": "Un helecho Nephrolepis con frondas verdes y delicadas. Perfecto para colgar en macetas o para decorar un rincón sombreado.",
+      "price": 17.99,
+      "thumbnail": "nephrolepis.jpg",
+      "code": "PL-005",
+      "stock": 25
+    },
+    {
+      "id": 6,
+      "title": "Cala - Zantedeschia",
+      "description": "Una cala Zantedeschia con espatas blancas y un aspecto elegante. Puede ser cultivada en interiores o jardines.",
+      "price": 21.99,
+      "thumbnail": "calla.jpg",
+      "code": "PL-006",
+      "stock": 30
+    },
+    {
+      "id": 7,
+      "title": "Bonsái - Ficus Retusa",
+      "description": "Un bonsái de Ficus Retusa con un tronco retorcido y hojas brillantes. Ideal para amantes de la jardinería zen.",
+      "price": 45.99,
+      "thumbnail": "bonsai.jpg",
+      "code": "PL-007",
+      "stock": 10
+    },
+    {
+      "id": 8,
+      "title": "Palma - Chamaedorea",
+      "description": "Una palma Chamaedorea con frondas finas y un aspecto exótico. Perfecta para decorar espacios interiores.",
+      "price": 28.99,
+      "thumbnail": "chamaedorea.jpg",
+      "code": "PL-008",
+      "stock": 18
+    },
+    {
+      "id": 9,
+      "title": "Lirio de la Paz - Spathiphyllum",
+      "description": "Un lirio de la paz Spathiphyllum con elegantes hojas verdes y flores blancas. Ideal para purificar el aire en interiores.",
+      "price": 15.99,
+      "thumbnail": "spathiphyllum.jpg",
+      "code": "PL-009",
+      "stock": 12
+    },
+    {
+      "id": 10,
+      "title": "Aloe Vera",
+      "description": "Una planta de Aloe Vera con hojas suculentas que se pueden usar para aliviar quemaduras y problemas en la piel. Perfecta para el cuidado personal.",
+      "price": 8.99,
+      "thumbnail": "aloe.jpg",
+      "code": "PL-010",
+      "stock": 40
+    }
+  ]
+  
