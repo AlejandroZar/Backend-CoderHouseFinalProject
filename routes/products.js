@@ -1,9 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ProductManager = require('../models/ProductManager');
-
-// Configura una instancia de ProductManager
-const manager = new ProductManager('data/products.json');
+const path = require('path');
 
 // Ruta para listar todos los productos
 router.get('/', async (req, res) => {
@@ -23,4 +20,3 @@ router.get('/', async (req, res) => {
 });
 
 module.exports = router;
-
