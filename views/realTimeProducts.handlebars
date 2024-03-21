@@ -7,24 +7,28 @@
 </head>
 <body>
   <h1>Real-Time Products</h1>
-  <!-- Contenido de la lista de productos en tiempo real -->
-  <ul id="productList"></ul>
+  <div id="nuevoProducto"></div>
+  <div id="productosNuevos"></div>
 
   <!-- Configuración de Socket.IO -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
   <script>
     const socket = io();
 
-    // Escuchar eventos de actualización
-    socket.on('actualizarProductos', (data) => {
-      // Lógica para actualizar la lista de productos en el DOM
-      const productList = document.getElementById('productList');
-      productList.innerHTML = ''; // Limpiar la lista antes de agregar los productos actualizados
+    // Escuchar el evento 'nuevoProducto' del servidor
+    socket.on('nuevoProducto', (data) => {
+      // Mostrar el nuevo producto recibido en el elemento con id 'nuevoProducto'
+      const nuevoProductoElement = document.getElementById('nuevoProducto');
+      nuevoProductoElement.innerHTML = `<p>Nuevo Producto: ${data.nombre}, Precio: ${data.precio}, Categoría: ${data.categoria}</p>`;
+    });
 
-      data.productos.forEach((producto) => {
-        const listItem = document.createElement('li');
-        listItem.textContent = `ID: ${producto.id}, Nombre: ${producto.nombre}`;
-        productList.appendChild(listItem);
+    // Escuchar el evento 'productosNuevos' del servidor
+    socket.on('productosNuevos', (data) => {
+      // Mostrar los productos recibidos en el elemento con id 'productosNuevos'
+      const productosNuevosElement = document.getElementById('productosNuevos');
+      productosNuevosElement.innerHTML = '<h2>Productos Nuevos</h2>';
+      data.forEach((producto) => {
+        productosNuevosElement.innerHTML += `<p>Producto: ${producto.nombre}, Precio: ${producto.precio}</p>`;
       });
     });
   </script>
